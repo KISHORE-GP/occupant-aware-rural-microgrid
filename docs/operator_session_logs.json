@@ -1,0 +1,50 @@
+[
+  {
+    "session_id": "SESS-20260928-01",
+    "timestamp": "2026-09-28 10:15:30",
+    "user_role": "Microgrid Operator",
+    "user_name": "R. Selvam (Microgrid Lead)",
+    "scenario_tested": "CASE_2_OPT_OUT",
+    "action_id": "ACT-004",
+    "load_name": "Health Clinic HVAC",
+    "operator_decision": "Approve",
+    "justification": "Verified that health clinic HVAC was preserved under active occupant opt-out HC-2.",
+    "qualitative_feedback": "The explanation rationale made it clear why the system did not curtail clinic HVAC despite peak tariff."
+  },
+  {
+    "session_id": "SESS-20260928-02",
+    "timestamp": "2026-09-28 11:30:12",
+    "user_role": "Building Manager",
+    "user_name": "K. Meenakshi (School Admin)",
+    "scenario_tested": "NORMAL",
+    "action_id": "ACT-008",
+    "load_name": "Solar Water Pump Station",
+    "operator_decision": "Approve",
+    "justification": "Water pumping load shifting during peak tariff window accepted as storage tanks were buffered.",
+    "qualitative_feedback": "The Tamil language translation helped non-technical staff understand the load shift reason instantly."
+  },
+  {
+    "session_id": "SESS-20260928-03",
+    "timestamp": "2026-09-28 14:05:44",
+    "user_role": "Community Admin",
+    "user_name": "M. Kumar (Panchayat Coordinator)",
+    "scenario_tested": "CASE_1_MISSING_OCC",
+    "action_id": "ACT-001",
+    "load_name": "Grain Mill Motor",
+    "operator_decision": "Override",
+    "justification": "Manually authorized conservative run mode during sensor communication outage.",
+    "qualitative_feedback": "Fallback banner prominently warned of missing occupancy telemetry before dispatching commands."
+  },
+  {
+    "session_id": "SESS-20260928-04",
+    "timestamp": "2026-09-28 15:45:00",
+    "user_role": "Microgrid Operator",
+    "user_name": "R. Selvam (Microgrid Lead)",
+    "scenario_tested": "CASE_4_CAPACITY_LIMIT",
+    "action_id": "ACT-012",
+    "load_name": "Residential Block B AC",
+    "operator_decision": "Approve",
+    "justification": "Confirmed that HC-4 capped total grid demand to 120 kW to prevent transformer overload.",
+    "qualitative_feedback": "Grid safety enforcement prevented line trip during evening surge."
+  }
+]

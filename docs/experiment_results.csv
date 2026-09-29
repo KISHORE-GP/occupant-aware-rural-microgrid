@@ -1,0 +1,9 @@
+Metric,Baseline,Peak Mode,Comfort Mode
+Peak Demand (kW),156.13,117.83,117.83
+Peak Reduction %,1.92%,25.98%,25.98%
+Comfort Violations,420,0,0
+Comfort Deviation (°C),1.33,0.66,0.54
+Opt-Out Violations,161,0,0
+Essential-Load Violations,0,0,0
+Electricity Cost ($),$6601.69,$7219.24,$8184.01
+Interventions,2100,1406,228
